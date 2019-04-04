@@ -63,7 +63,7 @@ def send_email(request):
                                                                                                                 email,
                                                                                                                 report,rating))
     email_from = settings.EMAIL_HOST_USER
-    recipient_list = ['nehul.r17@iiits.in']
+    recipient_list = []
     send_mail(subject, message, email_from, recipient_list)
     return HttpResponse("Thanks , your report has been sent")
 
