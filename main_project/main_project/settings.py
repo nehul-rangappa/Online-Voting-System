@@ -15,8 +15,6 @@ EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 
-#DEFAULT_FROM_EMAIL = 'johns69mith69@gmail.com'
-
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
